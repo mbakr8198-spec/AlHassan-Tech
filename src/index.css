@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-green: #1a5c3a;
+  --color-brand-green-dark: #0f3d25;
+  --color-brand-dark: #121212;
+  --color-brand-darker: #0a0a0a;
+  --color-brand-blue: #00d4ff;
+  --color-brand-gold: #ffd700;
+  --color-brand-gold-light: #ffe680;
+}
+
+/* Custom transitions and overall improvements */
+html {
+  scroll-behavior: smooth;
+  direction: rtl;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for neatness while preserving scrolling logic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a5c3a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd700;
+}
+

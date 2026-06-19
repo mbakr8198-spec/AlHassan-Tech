@@ -1,0 +1,6 @@
+{
+  "name": "شركة الحسن للحلول التقنية",
+  "description": "الموقع الرسمي لشركة الحسن المتخصصة في تطوير الويب، تطبيقات الجوال، التصميم الجرافيكي، وصناعة المحتوى التعليمي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
